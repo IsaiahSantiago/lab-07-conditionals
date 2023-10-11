@@ -1,5 +1,6 @@
-cakeorno = prompt("Do you want cake?") 
-if (cakeorno === "yes") {
-} else {
-console.log("No cake for you.") 
-}
+cakeorno = input("Do you want cake?") 
+if (cakeorno == "yes"):
+    print("Have some cake")
+else:
+    print("No cake for you.") 
+ 
