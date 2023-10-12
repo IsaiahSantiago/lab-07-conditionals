@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var firstnumb = prompt("Give me a number...");
+        var secondnumb = prompt("Give me aanother number...");
+        var operation = prompt("And what operation do you want? (mul/div/mod)");
+        var answer;
+
+        if (operation === "mul") {
+            answer = firstnumb * secondnumb;
+        } else if (operation === "div") {
+            answer = firstnumb / secondnumb;
+        } else if (operation === "mod") {
+            answer = firstnumb % secondnumb;
+        } else {
+        answer = "INVALID OPERATION";
+        }
+        console.log(answer);
+
+    </script>
+    
+</body>
+</html>
