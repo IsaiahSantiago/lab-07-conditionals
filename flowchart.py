@@ -1,20 +1,25 @@
-myVar = input("What is your answer? yes/no")  
+myVar = input("What is your answer to my 1st question? (yes/no) ")  
+#Does it move?
 if myVar == "yes":
-    myNextVar = input("What is your answer to my 2nd question? (yes/no) ")
-{
-    {
+#should it move?
+  myNextVar = input("What is your answer to my 2nd question? (yes/no) ")
   if myNextVar == "yes":
-    print("working")
+    print("Then use duct tape!!!")
   elif myNextVar == "no":
-    print("not working")
-    }
-  else:
+    print("No problem")
+  else: 
     print("Answer my question! You didn't type yes or no.")
+ 
+elif myVar == "no":
+  myNextVar = input("What is your answer to my 2nd question? (yes/no) ")
+  if myNextVar == "yes":
+    print("No problem")
+  elif myNextVar == "no":
+    print("Then don't use duct tape!!!")
+  else:
+      print("Answer my question! You didn't type yes or no.")
+
 else:
-  print("Error obtained")
-
-}
-
-
+      print("Answer my question! You didn't type yes or no.")
 
 
